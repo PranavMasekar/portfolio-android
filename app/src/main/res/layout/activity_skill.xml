@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".SkillActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/flutterBtn"
+        android:layout_height="50dp"
+        android:layout_width="100dp"
+        android:layout_margin="20sp"
+        android:background= "#4287f5"
+        android:textColor="#FFFFFF"
+        android:text="Flutter"  />
+
+    <Button
+        android:id="@+id/dockerBtn"
+        android:layout_height="50dp"
+        android:layout_width="100dp"
+        android:layout_margin="20sp"
+        android:background= "#4287f5"
+        android:textColor="#FFFFFF"
+        android:text="Docker" />
+
+    <Button
+        android:id="@+id/kubernetesBtn"
+        android:layout_height="50dp"
+        android:layout_width="100dp"
+        android:layout_margin="20sp"
+        android:background= "#4287f5"
+        android:textColor="#FFFFFF"
+        android:text="Kubernetes" />
+
+    <Button
+        android:id="@+id/firebaseBtn"
+        android:layout_height="50dp"
+        android:layout_width="100dp"
+        android:layout_margin="20sp"
+        android:background= "#4287f5"
+        android:textColor="#FFFFFF"
+        android:text="Firebase" />
+
+    <Button
+        android:id="@+id/jenkinsBtn"
+        android:layout_height="50dp"
+        android:layout_width="100dp"
+        android:layout_margin="20sp"
+        android:background= "#4287f5"
+        android:textColor="#FFFFFF"
+        android:text="Jenkins" />
+
+
+  </GridLayout>
